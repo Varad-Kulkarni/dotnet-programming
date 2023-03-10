@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>csharp_programming</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Day 01\**" />
+    <EmbeddedResource Remove="Day 01\**" />
+    <None Remove="Day 01\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Day 01\05 variables\" />
+    <Folder Include="Day 01\06 incompatible assignments\" />
+    <Folder Include="Day 01\07 operators overview\" />
+    <Folder Include="Day 01\08 evaluation of an expression\" />
+    <Folder Include="Day 01\09 overflow underflow situation\" />
+    <Folder Include="Day 01\10 string\" />
+    <Folder Include="Day 01\11 string builder\" />
+    <Folder Include="Day 01\12 input output\" />
+    <Folder Include="Day 01\13 string interpolation\" />
+  </ItemGroup>
+
+</Project>
