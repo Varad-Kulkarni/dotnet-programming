@@ -6,6 +6,7 @@
     <RootNamespace>csharp_programming</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -21,193 +22,31 @@
     <Compile Remove="Day 02\**" />
     <Compile Remove="Day 03\**" />
     <Compile Remove="Day 04\**" />
-    <Compile Remove="Day 05\01 Inheritance\11 Abstract Methods\**" />
-    <Compile Remove="Day 05\Excercise\Program2\**" />
-    <Compile Remove="Day 05\Excercise\Program3\**" />
+    <Compile Remove="Day 05\**" />
+    <Compile Remove="Day 06\**" />
+    <Compile Remove="Day 07\**" />
     <EmbeddedResource Remove="Day 01\**" />
     <EmbeddedResource Remove="Day 02\**" />
     <EmbeddedResource Remove="Day 03\**" />
     <EmbeddedResource Remove="Day 04\**" />
-    <EmbeddedResource Remove="Day 05\01 Inheritance\11 Abstract Methods\**" />
-    <EmbeddedResource Remove="Day 05\Excercise\Program2\**" />
-    <EmbeddedResource Remove="Day 05\Excercise\Program3\**" />
+    <EmbeddedResource Remove="Day 05\**" />
+    <EmbeddedResource Remove="Day 06\**" />
+    <EmbeddedResource Remove="Day 07\**" />
     <None Remove="Day 01\**" />
     <None Remove="Day 02\**" />
     <None Remove="Day 03\**" />
     <None Remove="Day 04\**" />
-    <None Remove="Day 05\01 Inheritance\11 Abstract Methods\**" />
-    <None Remove="Day 05\Excercise\Program2\**" />
-    <None Remove="Day 05\Excercise\Program3\**" />
+    <None Remove="Day 05\**" />
+    <None Remove="Day 06\**" />
+    <None Remove="Day 07\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="Day 05\01 Inheritance\01 Basic class inheritance syntex\DummyBase.cs" />
-    <Compile Remove="Day 05\01 Inheritance\01 Basic class inheritance syntex\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\01 Basic class inheritance syntex\Program.cs" />
-    <Compile Remove="Day 05\01 Inheritance\02 Constructor order\DummyBase.cs" />
-    <Compile Remove="Day 05\01 Inheritance\02 Constructor order\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\02 Constructor order\Program.cs" />
-    <Compile Remove="Day 05\01 Inheritance\03 Passing arguments to base constructor\DummyBase.cs" />
-    <Compile Remove="Day 05\01 Inheritance\03 Passing arguments to base constructor\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\03 Passing arguments to base constructor\Program.cs" />
-    <Compile Remove="Day 05\01 Inheritance\04 Subclassing IDisposable class\DummyBase.cs" />
-    <Compile Remove="Day 05\01 Inheritance\04 Subclassing IDisposable class\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\04 Subclassing IDisposable class\Program.cs" />
-    <Compile Remove="Day 05\01 Inheritance\05 Method Overriding\DummyBase.cs" />
-    <Compile Remove="Day 05\01 Inheritance\05 Method Overriding\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\05 Method Overriding\Program.cs" />
-    <Compile Remove="Day 05\01 Inheritance\06 Calling base members\DummyBase.cs" />
-    <Compile Remove="Day 05\01 Inheritance\06 Calling base members\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\06 Calling base members\Program.cs" />
-    <Compile Remove="Day 05\01 Inheritance\07 Hiding base class\DummyBase.cs" />
-    <Compile Remove="Day 05\01 Inheritance\07 Hiding base class\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\07 Hiding base class\Program.cs" />
-    <Compile Remove="Day 05\01 Inheritance\08 Abstract class\DummyBase.cs" />
-    <Compile Remove="Day 05\01 Inheritance\08 Abstract class\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\08 Abstract class\Program.cs" />
-    <Compile Remove="Day 05\01 Inheritance\09 Abstract class\DummyBase.cs" />
-    <Compile Remove="Day 05\01 Inheritance\09 Abstract class\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\09 Abstract class\Program.cs" />
-    <Compile Remove="Day 05\01 Inheritance\10 Abstract Methods\DummyBase.cs" />
-    <Compile Remove="Day 05\01 Inheritance\10 Abstract Methods\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\10 Abstract Methods\Program.cs" />
-    <Compile Remove="Day 05\01 Inheritance\11 Sealed class\DummyBase.cs" />
-    <Compile Remove="Day 05\01 Inheritance\11 Sealed class\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\11 Sealed class\Program.cs" />
-    <Compile Remove="Day 05\01 Inheritance\12 Sealed Methods\DummyBase.cs" />
-    <Compile Remove="Day 05\01 Inheritance\12 Sealed Methods\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\12 Sealed Methods\GrandDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\12 Sealed Methods\Program.cs" />
-    <Compile Remove="Day 05\01 Inheritance\13 Interface inheritance\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\13 Interface inheritance\IDummyInterface.cs" />
-    <Compile Remove="Day 05\01 Inheritance\13 Interface inheritance\Program.cs" />
-    <Compile Remove="Day 05\01 Inheritance\14 Implicite implementation of interface methods\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\14 Implicite implementation of interface methods\IDummyInterface.cs" />
-    <Compile Remove="Day 05\01 Inheritance\14 Implicite implementation of interface methods\IDummyInterface2.cs" />
-    <Compile Remove="Day 05\01 Inheritance\14 Implicite implementation of interface methods\Program.cs" />
-    <Compile Remove="Day 05\01 Inheritance\15 Explicite implwmentation of interface methods\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\15 Explicite implwmentation of interface methods\IDummyInterface.cs" />
-    <Compile Remove="Day 05\01 Inheritance\15 Explicite implwmentation of interface methods\IDummyInterface2.cs" />
-    <Compile Remove="Day 05\01 Inheritance\15 Explicite implwmentation of interface methods\Program.cs" />
-    <Compile Remove="Day 05\01 Inheritance\16 Class and Interface inheritance\DummyBase.cs" />
-    <Compile Remove="Day 05\01 Inheritance\16 Class and Interface inheritance\DummyDerived.cs" />
-    <Compile Remove="Day 05\01 Inheritance\16 Class and Interface inheritance\IDummyInterface.cs" />
-    <Compile Remove="Day 05\01 Inheritance\16 Class and Interface inheritance\IDummyInterface2.cs" />
-    <Compile Remove="Day 05\01 Inheritance\16 Class and Interface inheritance\Program.cs" />
-    <Compile Remove="Day 05\02 Access Specifiers\AnathorDummy2.cs" />
-    <Compile Remove="Day 05\02 Access Specifiers\DummyDerived.cs" />
-    <Compile Remove="Day 05\03 is and as operators\CodeFile01.cs" />
-    <Compile Remove="Day 05\03 is and as operators\CodeFile02.cs" />
-    <Compile Remove="Day 05\05 xml comments\01 without comments\Algorithm.cs" />
-    <Compile Remove="Day 05\05 xml comments\01 without comments\Program.cs" />
-    <Compile Remove="Day 05\05 xml comments\02 with comments\Algorithm.cs" />
-    <Compile Remove="Day 05\05 xml comments\02 with comments\Program.cs" />
-    <Compile Remove="Day 05\05 xml comments\CodeFile01.cs" />
     <Compile Remove="Program.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Day 04\Excercise\FileLogger.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Day 01\05 variables\" />
-    <Folder Include="Day 01\06 incompatible assignments\" />
-    <Folder Include="Day 01\07 operators overview\" />
-    <Folder Include="Day 01\08 evaluation of an expression\" />
-    <Folder Include="Day 01\09 overflow underflow situation\" />
-    <Folder Include="Day 01\10 string\" />
-    <Folder Include="Day 01\11 string builder\" />
-    <Folder Include="Day 01\12 input output\" />
-    <Folder Include="Day 01\13 string interpolation\" />
-    <Folder Include="Day 01\14 conditional operator\" />
-    <Folder Include="Day 01\15 if else switch\" />
-    <Folder Include="Day 01\Excercise\" />
-    <Folder Include="Day 02\01 passing arguments to a function\01 passing and returning types\" />
-    <Folder Include="Day 02\01 passing arguments to a function\02 using ref modifier\" />
-    <Folder Include="Day 02\01 passing arguments to a function\03 using in modifier\" />
-    <Folder Include="Day 02\01 passing arguments to a function\04 using out modifier\" />
-    <Folder Include="Day 02\02 variable scope\" />
-    <Folder Include="Day 02\03 optionals parameters\" />
-    <Folder Include="Day 02\04 named parameters\" />
-    <Folder Include="Day 02\05 recursive function\" />
-    <Folder Include="Day 02\06 function overloading\" />
-    <Folder Include="Day 02\07 arrays\01 single dimension value type array\" />
-    <Folder Include="Day 02\07 arrays\02 double dimension value type array\" />
-    <Folder Include="Day 02\07 arrays\03 single dimension reference type array\" />
-    <Folder Include="Day 02\07 arrays\04 double dimension reference type array\" />
-    <Folder Include="Day 02\07 arrays\05 jagged array of value type\" />
-    <Folder Include="Day 02\07 arrays\06 jagged array of reference type\" />
-    <Folder Include="Day 02\07 arrays\07 using array class\" />
-    <Folder Include="Day 02\08 goto\" />
-    <Folder Include="Day 02\09 commandline arguments\" />
-    <Folder Include="Day 02\Excercise\" />
-    <Folder Include="Day 03\01 enumerations\" />
-    <Folder Include="Day 03\02 namespaces\" />
-    <Folder Include="Day 03\03 fields\01 defining field with field initializer\" />
-    <Folder Include="Day 03\03 fields\02 readonly field\" />
-    <Folder Include="Day 03\03 fields\03 volatile field\" />
-    <Folder Include="Day 03\03 fields\04 static field\" />
-    <Folder Include="Day 03\03 fields\05 static readonly field\" />
-    <Folder Include="Day 03\04 properties\01 using accessor and mutator\" />
-    <Folder Include="Day 03\04 properties\02 readwrite property\" />
-    <Folder Include="Day 03\04 properties\03 auto implemented property\" />
-    <Folder Include="Day 03\04 properties\04 readonly property\" />
-    <Folder Include="Day 03\04 properties\05 writeonly property\" />
-    <Folder Include="Day 03\04 properties\06 static property\" />
-    <Folder Include="Day 03\05 anonymous types\" />
-    <Folder Include="Day 03\06 methods\01 variadic method\" />
-    <Folder Include="Day 03\06 methods\02 static method\" />
-    <Folder Include="Day 03\06 methods\03 static non-static cross calls\" />
-    <Folder Include="Day 03\07 constructor\04 constructor calling another constructor\" />
-    <Folder Include="Day 03\07 constructor\05 static constructor\" />
-    <Folder Include="Day 03\07 constructor\06 struct and constructor\" />
-    <Folder Include="Day 03\07 constructor\07 private constructor\" />
-    <Folder Include="Day 03\07 constructor\08 copy constructor\" />
-    <Folder Include="Day 03\07 constructor\09 object initializer\" />
-    <Folder Include="Day 03\08 destructor\01 destructor definition\" />
-    <Folder Include="Day 03\08 destructor\02 using IDisposable\" />
-    <Folder Include="Day 03\Excercise\" />
-    <Folder Include="Day 04\01 indexers\" />
-    <Folder Include="Day 04\02 delegates\01 simple delegate\" />
-    <Folder Include="Day 04\02 delegates\02 anonymous function\" />
-    <Folder Include="Day 04\03 events\01 multicast delegate\" />
-    <Folder Include="Day 04\03 events\02 events\" />
-    <Folder Include="Day 04\03 events\03 using event accessors\" />
-    <Folder Include="Day 04\03 events\04 event with eventarg\" />
-    <Folder Include="Day 04\04 constants\" />
-    <Folder Include="Day 04\05 operator overloading\01 overloading arithmetic operator\" />
-    <Folder Include="Day 04\05 operator overloading\02 overloading casting operator\" />
-    <Folder Include="Day 04\06 expression bodied member\" />
-    <Folder Include="Day 04\07 nested classes\" />
-    <Folder Include="Day 04\08 static classes\" />
-    <Folder Include="Day 04\09 extension methods\" />
-    <Folder Include="Day 04\10 partial classes\" />
-    <Folder Include="Day 05\01 Inheritance\01 Basic class inheritance syntex\" />
-    <Folder Include="Day 05\01 Inheritance\02 Constructor order\" />
-    <Folder Include="Day 05\01 Inheritance\03 Passing arguments to base constructor\" />
-    <Folder Include="Day 05\01 Inheritance\04 Subclassing IDisposable class\" />
-    <Folder Include="Day 05\01 Inheritance\05 Method Overriding\" />
-    <Folder Include="Day 05\01 Inheritance\06 Calling base members\" />
-    <Folder Include="Day 05\01 Inheritance\07 Hiding base class\" />
-    <Folder Include="Day 05\01 Inheritance\08 Abstract class\" />
-    <Folder Include="Day 05\01 Inheritance\09 Abstract class\" />
-    <Folder Include="Day 05\01 Inheritance\10 Abstract Methods\" />
-    <Folder Include="Day 05\01 Inheritance\11 Sealed class\" />
-    <Folder Include="Day 05\01 Inheritance\12 Sealed Methods\" />
-    <Folder Include="Day 05\01 Inheritance\13 Interface inheritance\" />
-    <Folder Include="Day 05\01 Inheritance\14 Implicite implementation of interface methods\" />
-    <Folder Include="Day 05\01 Inheritance\15 Explicite implwmentation of interface methods\" />
-    <Folder Include="Day 05\01 Inheritance\16 Class and Interface inheritance\" />
-    <Folder Include="Day 05\02 Access Specifiers\" />
-    <Folder Include="Day 05\03 is and as operators\" />
-    <Folder Include="Day 05\05 xml comments\01 without comments\" />
-    <Folder Include="Day 05\05 xml comments\02 with comments\" />
-    <Folder Include="Day 05\Excercise\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\dummy-class-library\dummy-class-library.csproj" />
+    <ProjectReference Include="..\math-class-library\MathClassLibrary.csproj" />
   </ItemGroup>
 
 </Project>
