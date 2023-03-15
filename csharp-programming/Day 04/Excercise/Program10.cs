@@ -1,22 +1,15 @@
 ﻿namespace Excercise {
-    class DateTimeExtension {
-        private DateTime dt;
-
-        public DateTimeExtension(DateTime dt) {
-            this.dt = dt;
-        }
-
-        public string ToShortDate() {
-            if(this.dt == null) {
+    public static class DateTimeExtension {
+        public static string ToShortDate(this DateTime dt) {
+            if (dt == null) {
                 throw new Exception("date should not be null");
             }
-            return $"{this.dt.Day}/{this.dt.Month}/{this.dt.Year}";
+            return $"{dt.Day}/{dt.Month}/{dt.Year}";
         }
-    }
-
+        }
     class Program {
         public static void Main() {
-            DateTimeExtension d1 = new DateTimeExtension(DateTime.Now);
+            DateTime d1 = DateTime.Parse("16 march 2020");
             Console.WriteLine(d1.ToShortDate());
         }
     }

@@ -24,8 +24,8 @@
             string s = "level";
             result = StringExtensions.IsPalindrome(s);
 
-            string t = "hello";
-            result = StringExtensions.IsPalindrome(t);
+            string int = "hello";
+            result = StringExtensions.IsPalindrome(int);
         }
     }
 }

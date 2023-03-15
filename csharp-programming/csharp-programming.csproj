@@ -25,6 +25,8 @@
     <Compile Remove="Day 05\**" />
     <Compile Remove="Day 06\**" />
     <Compile Remove="Day 07\**" />
+    <Compile Remove="Day 08\**" />
+    <Compile Remove="Day 09\**" />
     <EmbeddedResource Remove="Day 01\**" />
     <EmbeddedResource Remove="Day 02\**" />
     <EmbeddedResource Remove="Day 03\**" />
@@ -32,6 +34,8 @@
     <EmbeddedResource Remove="Day 05\**" />
     <EmbeddedResource Remove="Day 06\**" />
     <EmbeddedResource Remove="Day 07\**" />
+    <EmbeddedResource Remove="Day 08\**" />
+    <EmbeddedResource Remove="Day 09\**" />
     <None Remove="Day 01\**" />
     <None Remove="Day 02\**" />
     <None Remove="Day 03\**" />
@@ -39,10 +43,17 @@
     <None Remove="Day 05\**" />
     <None Remove="Day 06\**" />
     <None Remove="Day 07\**" />
+    <None Remove="Day 08\**" />
+    <None Remove="Day 09\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
   <ItemGroup>

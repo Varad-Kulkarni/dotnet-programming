@@ -24,8 +24,8 @@
             string s = "level";
             result = s.IsPalindrome();
 
-            string t = "hello";
-            result = t.IsPalindrome();
+            string int = "hello";
+            result = int.IsPalindrome();
 
             result = "radar".IsPalindrome();
 
